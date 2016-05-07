@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<!--Using jQuery and jQuery UI for display effects-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <!--Using the hamburger menu display code-->
+    <script src="js/hamburger.js"></script>
+	<link rel="stylesheet" media='screen and (min-width: 481px)' href="css/common.css">
+	<link rel='stylesheet' media='screen and (max-width: 480px)' href='css/mobile.css' />
+	<link href='https://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,800' rel='stylesheet' type='text/css'>
+    <title>IACS Energy</title>
+	
+</head>
+<body>
+	<div id="container">
+	<header class="common">
+	<h1>IACS Energy</h1>
+	<span class="common" id="slogan">Automation Partner to the Valley</span>
+	
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	
+	<!--The layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+    <div id="contentLayer"></div>
+	
+	<div id="content">
+	<header class="mobile">
+	<h1>IACS Energy</h1>
+	<div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+	 </div>
+	<span class="common" id="slogan">Automation Partner to the Valley</span>
+	
+	</header>
+		<img class="mobile" src="images/powerlines_horizontal.jpg">
+		<img class="common" id="tallImage" src="images/powerlines_cropped.jpg">
+		
+		<div id="services">
+			<div class="mobile" id="slogan_mobile">Automation Partner to the Valley</div>
+			<h2>PLC Programming</h2>
+			<p>
+			We install and program the latest control systems. We do PLC and I/O card upgrades. Expert in legacy systems. 
+			</p>
+			<h2>HMI/SCADA</h2>
+			<p>
+			We build interfaces that are user-friendly, efficient, intuitive and help you get the job done.
+			</p>
+			<h2>Industrial Control Systems</h2>
+			<p>
+			Our years of industry experience provide the expertise you need to build the intelligent control systems you need. 
+			</p>
+		</div>
+	</div>
+	
+	<footer>
+	<div id="copy">IACS Energy &copy;&nbsp;All Rights Reserved</div>
+	</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+
+body {
+	height: 100%;
+	width: 100%;
+	overflow:auto;	
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background: linear-gradient(45deg, #6A6A6A, #A2A2A2); 
+}
+
+
+#content {
+	display: inline-block; 
+	height: 50%; 
+	width: 80%;
+	margin-left: 2%;	
+}
+
+#content img {
+	width: 69%;
+}
+
+#copy {
+	padding: 20px 1% 1% 0;
+	margin-left: 2%;	
+}
+footer {
+	background: #FF7800;
+	color: #fff;  
+	height: 10%;
+	width: 85%;
+	margin: 1% 2% 0 2%;
+}
+
+header {
+	font-family: 'Squada One', cursive;
+	color: #FFF;
+	margin: auto;
+}
+
+header h1 {
+	font-size: 500%;
+	letter-spacing: 2px;
+	margin: 1% 0 5px 2%; 
+}
+
+header h2 {
+	font-size: 128%;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	margin: 0; 
+}
+
+html {
+	height: 100%;
+	overflow:auto;
+}
+
+.mobile {
+	display: none; 
+}
+
+nav {
+	font-family: 'Squada One', cursive;
+	background: #FF7800;
+	width: 85%;
+	margin-left: 2%;
+}
+
+nav ul {
+	list-style-type: none; 
+	padding: .5% 1% .5% 50%;	
+}
+
+nav ul li{
+	display: inline; 
+	margin: 0 0% 0 20%;
+	padding: 5%; 
+	font-size: 150%;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+	color: #FFF;
+}
+
+#services {
+	width: 26%; 
+	float: right; 
+}
+
+#services h2 {
+	font-size: 113%;
+	font-family: 'Raleway', bold;
+	font-weight: bold;
+	color: #FFF;
+	margin-bottom: 5px;
+}
+
+#services p {
+	font-size: 110%;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	margin: 0 0 0 0;
+}
+
+#slogan {
+	font-size: 150%; 
+	font-family: 'Raleway', sans-serif;
+	margin-left: 2%; 
+}
